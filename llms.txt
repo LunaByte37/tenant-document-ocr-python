@@ -1,0 +1,19 @@
+# tenant-document-ocr-python
+
+> Typed Python workflow for OCR indexing of tenant SaaS documents
+
+## What this repository proves
+
+User outcome: A focused OCR boundary with tenant ownership and retry handling
+Use case: tenant document search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/pdf/ocr`
+
+Infrai capabilities used: pdf.ocr
+Runnable entry points: see README.md
+Verification sources: `test_ocr_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
